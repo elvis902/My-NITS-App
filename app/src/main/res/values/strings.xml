@@ -4,4 +4,9 @@
     <string name="bold" tools:ignore="ReferenceType">@font/lato_bold</string>
     <string name="regular" tools:ignore="ReferenceType">@font/lato_regular</string>
     <string name="light" tools:ignore="ReferenceType">@font/lato_light</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="start">Start</string>
+    <string name="close">Close</string>
 </resources>
