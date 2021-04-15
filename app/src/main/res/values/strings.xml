@@ -9,4 +9,11 @@
 
     <string name="start">Start</string>
     <string name="close">Close</string>
+
+    <string name="about_college">
+
+        National Institute Of Technology, Silchar (राष्ट्रीय प्रौद्योगिकी संस्थान, सिलचर) is one of the 31 National Institutes of Technology of India and was established in 1967 as a Regional Engineering College in Assam. In 2002 it was upgraded to the status of National Institute of Technology and was declared as Institute of National Importance under the National Institutes of Technology Act, 2007
+
+    </string>
+
 </resources>

@@ -1,5 +1,6 @@
 package com.example.mynitsapp.ui.home;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -8,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.example.mynitsapp.R;
 import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnimationType;
@@ -20,6 +22,7 @@ import java.util.List;
 public class HomeFragment extends Fragment {
 
     private SliderView sliderView;
+    private ImageView map;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -33,7 +36,22 @@ public class HomeFragment extends Fragment {
 
         setSliderView();
 
+        map = view.findViewById(R.id.map_intent);
+        map.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openMap();
+            }
+        });
+
         return view;
+    }
+
+    private void openMap() {
+        Uri uri = Uri.parse("geo:0, 0?q=National Institute of Technology Silchar");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        intent.setPackage("com.google.android.apps.maps");
+        startActivity(intent);
     }
 
     private void setSliderView() {
