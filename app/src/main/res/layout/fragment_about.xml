@@ -69,6 +69,53 @@
            android:overScrollMode="never"
            android:id="@+id/view_pager"/>
 
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Contact Details"
+           android:layout_marginTop="18dp"
+           android:textSize="@dimen/title_size"
+           android:layout_gravity="center_horizontal"
+           android:textColor="@color/text_color"
+           android:fontFamily="@string/bold"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="National Institute of Technology Silchar"
+           android:layout_marginTop="@dimen/text_margin"
+           android:layout_marginHorizontal="@dimen/text_margin"
+           android:textSize="@dimen/text_size"
+           android:textColor="@color/text_color"
+           android:fontFamily="@string/light"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Fakiratilla, Silchar, Assam"
+           android:layout_marginTop="@dimen/text_margin"
+           android:layout_marginHorizontal="@dimen/text_margin"
+           android:textSize="@dimen/text_size"
+           android:textColor="@color/text_color"
+           android:fontFamily="@string/light"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="College Email"
+           android:layout_marginTop="@dimen/text_margin"
+           android:layout_marginHorizontal="@dimen/text_margin"
+           android:textSize="@dimen/text_size"
+           android:textColor="@color/text_color"
+           android:fontFamily="@string/light"/>
+
+       <ImageView
+           android:id="@+id/map"
+           android:layout_width="wrap_content"
+           android:layout_height="230dp"
+           android:src="@drawable/nits_map"/>
+
+
 
    </LinearLayout>
 

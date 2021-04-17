@@ -1,5 +1,7 @@
 package com.example.mynitsapp.ui.about;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -21,7 +23,8 @@ public class AboutFragment extends Fragment {
     private ViewPager viewPager;
     private BranchAdapter adapter;
     private List<BranchModel> lists;
-    private ImageView imageView;
+    private ImageView imageView, map;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -56,7 +59,7 @@ public class AboutFragment extends Fragment {
 
         lists.add(new BranchModel(
                 R.drawable.cse,
-                "Computer Science and Engineering\n",
+                "Computer Science and Engineering",
                 "The undergraduate program in Computer Science and Engineering started with the admission of its first batch of B.E. students in the year 1987. It was then under the Department of Electrical Engineering from which it got separated under the Department of Electronics and Communication Engineering in the year 2000. From the year 2000 till 2008 the department was under the Department of Electronics and Communication Engineering. In the year 2008 the Department of Computer Science and Engineering became an independent department."
         ));
 
@@ -71,11 +74,26 @@ public class AboutFragment extends Fragment {
         viewPager.setAdapter(adapter);
 
         imageView = view.findViewById(R.id.college_image);
+        map = view.findViewById(R.id.map);
 
         Glide.with(getContext())
                 .load("https://firebasestorage.googleapis.com/v0/b/my-nits-app.appspot.com/o/Utilities%2Fadmin_building_image.png?alt=media&token=5350242a-7138-4c3c-91ab-c29c9e480899")
                 .into(imageView);
 
+        map.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openMap();
+            }
+        });
+
         return view;
+    }
+
+    private void openMap() {
+        Uri uri = Uri.parse("geo:0, 0?q=National Institute of Technology Silchar");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        intent.setPackage("com.google.android.apps.maps");
+        startActivity(intent);
     }
 }
