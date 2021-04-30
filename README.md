@@ -25,3 +25,54 @@ Java, xml, Android Studio, Git, Firebase Realtime Database, Firebase Storage.
 - Glide
 - ViewPager, etc.
 
+### Screenshots
+
+<p float="left">
+  <kbd>
+  <img src="ScreenShots/Home.jpg" height="550dp" width="250"/>
+  </kbd>
+  &ensp; &ensp;
+   <kbd>
+  <img src="ScreenShots/Latest Notices.jpg" height="550dp" width="250" /> 
+   </kbd>
+   &ensp; &ensp;
+  <kbd>
+  <img src="ScreenShots/Faculties.jpg" height="550dp" width="250" /> 
+   </kbd>
+</p>
+<h4>&ensp; Home Fragment &ensp;&ensp;||&ensp;&ensp; Latest Notices(Regularly Updated by Admin) &ensp;&ensp;||&ensp;&ensp; Faculties(Regularly Updated by Admin) </h4>
+
+<br/>
+<br/>
+
+<p float="left">
+  <kbd>
+  <img src="ScreenShots/College Gallery.jpg" height="550dp" width="250" /> 
+   </kbd>
+  &ensp; &ensp;
+  <kbd>
+  <img src="ScreenShots/About.jpg" height="550dp" width="250" /> 
+   </kbd>
+  &ensp; &ensp;
+  <kbd>
+  <img src="ScreenShots/About 2.jpg" height="550dp" width="250" /> 
+   </kbd>    
+</p>
+<h4>&ensp; College Gallery &ensp;&ensp;&ensp;&ensp;||&ensp;&ensp;&ensp;&ensp; About Fragment </h4>
+
+<br/>
+<br/>
+
+<p float="left">
+  <kbd>
+  <img src="ScreenShots/Navigation Drawer.jpg" height="550dp" width="250"/>
+  </kbd>
+  &ensp; &ensp;
+  
+  <kbd>
+  <img src="ScreenShots/Ebooks.jpg" height="550dp" width="250" /> 
+   </kbd>
+</p>
+<h4>&ensp; Navigation Drawer  &ensp;&ensp;||&ensp;&ensp; Available Ebooks(Can be viewed and downloaded by user) </h4>
+
+
