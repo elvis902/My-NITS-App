@@ -1,7 +1,7 @@
 # My-NITS-App
 My NITS app is made with love for the students of NIT Silchar. It helps the users to know the college better and also to stay updated with latest developments in the college.
 
-(https://play.google.com/store/apps/details?id=com.elvis902.mynitsapp)
+Play Store: https://play.google.com/store/apps/details?id=com.elvis902.mynitsapp
 
 ### Features
 
